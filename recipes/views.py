@@ -3,7 +3,7 @@ from django.shortcuts import render
 
 # Create your views here.
 def home(request):
-    return HttpResponse('HOME - RECIPES 2')
+    return render(request,'recipes/home.html')   ## usando namespaces
 
 def sobre(request):
     return HttpResponse('SOBRE- RECIPES 2')
