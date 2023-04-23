@@ -5,8 +5,8 @@ from django.shortcuts import render
 def home(request):
     return render(request,'recipes/home.html', context={'name': 'jofran'})
 
-def sobre(request):
+""" def sobre(request):
     return render(request, 'recipes/sobre.html')
 
 def contato(request):
-    return HttpResponse('CONTATO - RECIPES 2')
+    return HttpResponse('CONTATO - RECIPES 2') """
